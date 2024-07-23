@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Samucas's Bar</title>
+</head>
+<body>
+    <header>
+        <div id="image">
+
+            <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2023/08/pub-londres-capa.jpg" alt="pub image">
+        </div>
+        <div>
+            <h1>Samucas's Bar Great Place</h1>
+            <p>
+                <a href="https://www.dante-nyc.com/">London</a>
+                <a href="https://www.brokenshaker.com/">Madrid</a>
+                <a href="https://www.sonnyboynyc.com/">Riograndina</a>
+            </p>
+            <hr>
+        </div>
+    </header>
+    <section>
+        <h1>The most pleasant place in the your region!</h1>
+        <p>
+            You are going to love our space!<br>
+            It was made with you in mind.
+        <br><br>
+        Make your reservation now!
+        </p>
+        <form action="https://formsubmit.co/marcelog.3212@gmail.com" method="POST">
+            <input type="text" name="name" id="name" placeholder="NAME" autocomplete="none" required><br>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Projects/zRascunhos/reservationCad/responseOk.html">
+            <!-- <input type="hidden" name="_next" value="http://192.168.0.???:5500/Projects/zRascunhos/reservationCad/responseOk.html"> -->
+            <input type="hidden" name="_subject" value="Reservation Pub Bar">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="email" name="email" id="mail" placeholder="E-MAIL" autocomplete="none" required><br>
+            <input type="hidden" name="_autoresponse" value="Reservation registered">
+            <input type="tel" name="tel" id="tel" placeholder="PHONE" autocomplete="none" required><br>
+            <input type="radio" name="local" id="LD" value="London " required>London &nbsp; &nbsp;
+            <input type="radio" name="local" id="MD" value="Madrid ">Madrid &nbsp; &nbsp;
+            <input type="radio" name="local" id="RG" value="Riograndina">Riograndina<br>
+            ⏰<input type="time" name="time" id="time" required>&nbsp;
+            📆<input type="date" name="date" id="date" required><br>
+            <button>SUBMIT</button>
+        </form>
+        <div id="loader">
+            <div id="d1" class="element">🍻</div>
+            <div id="d2" class="element">🍹</div>
+            <div id="d3" class="element">🍾</div>
+            <div id="d4" class="element">🏴󠁧󠁢󠁥󠁮󠁧󠁿</div>
+            <div id="d5" class="element">🍦</div>
+        </div>
+        <footer>M.Gomes&copy; Desygn and solutions</footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
