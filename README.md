@@ -1,7 +1,7 @@
 <h1 align="center"> Reservation Register </h1>
 
 <p align="center">
-"Reservation Register" é um projeto que serve para auxiliar no registro de reservas, bom como a confirmação de presença em eventos à convidados.
+"Reservation Register" é um projeto que auxilia o registro de reservas, bom como a confirmação de presença em eventos à convidados.
 </p>
 
 <p align="center">
