@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 isChecked = true
             } 
         });
-        if(name.value && mail.value && tel.value && isChecked && time.value && date.value){
+        if(name.value && mail.checkValidity() && tel.value && isChecked && time.value && date.value){
             loader.style.opacity = '1'
             let elements = document.querySelectorAll(".element")
             elements.forEach((element)=>{
